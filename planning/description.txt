@@ -1,0 +1,18 @@
+Project Specifications:
+    name: tbn
+    author: Yuval Maharshak
+    date of creation: 19/10/2022
+
+Project Contributers:
+    Yuval Maharshak
+
+Project short description:
+    This project is an on-terminal (meaning using the terminal graphics) grapher. The project focuses around objects that are solid of revolution.
+    This 3d shapes are formed from a spinning of a 2d shape accross certian axis. The program will display with terminal graphics the spinning of any
+    inputted elementary function and the user will be able to look, spin and calculate things with the resulting shape.
+
+Project main resources:
+    - Real Analysis
+
+Project goals:
+    To increase my knowledge on Real Analysis and to look good on my resume ;)
