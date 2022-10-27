@@ -1,0 +1,7 @@
+How To:
+    1. Get terminal dimentions: to do that you need to import the sys/ioctl.h library and then create a winsize variable w and write 
+    the command: ioctl(0, TIOCGWINSZ, &w); then the terminal dimentions are w.ws_row x w.ws_col
+
+
+maybe we should:
+    1. add a t_char class to handle chars in the graphics
