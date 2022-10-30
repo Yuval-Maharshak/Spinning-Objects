@@ -1,0 +1,27 @@
+class terminal {
+    public:
+        screen s;
+
+        terminal(char background_color)     /* creating a screen by terminal dimensions and background_color */
+
+        printScreen() /* printing s to the terminal */
+}
+
+class screen {
+    private:
+        int **matrix;
+        int width;
+        int height;
+    public:
+        screen(char background_color) {
+            winsize ws;
+            ioctl(0, TIOCGWINSZ, &ws);
+            width = ws.ws_col;
+            height = ws.ws_row;
+
+            matrix = new int*[height];
+            for (int i = 0; i<height; i++) {
+                matrix[i] = new int[width];
+            }
+        }       /* creating the screen */
+}
