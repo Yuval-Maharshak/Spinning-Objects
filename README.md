@@ -8,9 +8,9 @@
 
 ## Preface
 
-This project focuses _Solid of Revolution_ (Spinning-Created Objects). The user can put any elementary function into the terminal and the program will
+This project focuses on _Solid of Revolution_ (Spinning-Created Objects). The user can put any elementary function into the terminal and the program will
 graph the function and then show an animation of the Solid of Revolution (from now on refered as _SOR_) created from the surface under the function
-revolving around any axis the user picks. The user will also be able to change the surface revolved using equations ~~ or drawings ~~.
+revolving around any axis the user picks. The user will also be able to change the surface revolved using equations .
 
 ## Resources
 
